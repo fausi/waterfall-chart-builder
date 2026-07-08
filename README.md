@@ -2,7 +2,7 @@
 
 A single-file, browser-based tool for building custom waterfall charts with a dark, gold-accented theme. Configure segments, reference lines, colours, and labels in a live editor, then export the result as a PNG or SVG.
 
-![Waterfall chart builder](preview.png)
+
 
 ## Features
 
@@ -27,15 +27,9 @@ Everything lives in one HTML file, so you can also just double-click it locally.
 4. **Segments** — add rows in order. Each row has a label, a value, a type, and an optional bar label (the text shown above the bar, e.g. `+1.72` or `25%`).
 5. **Export** — set the width and height, then click **PNG** or **SVG**.
 
-## Hosting
+#### To use as skill
 
-This repo is set up for **GitHub Pages**:
-
-1. The chart file is named `index.html`, so it loads at the site root.
-2. In **Settings → Pages**, set the source to **Deploy from a branch** → **main** / **/ (root)**.
-3. The site publishes to `https://<username>.github.io/<repo>/`.
-
-Any push to `main` redeploys automatically.
+npx skills add fausi/waterfall-chart-builder
 
 ## Notes
 
